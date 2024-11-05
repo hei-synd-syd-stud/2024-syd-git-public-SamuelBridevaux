@@ -55,3 +55,29 @@ Ensuite, lorsque j'ai checkout sur le main, tous les fichiers et modifications a
 ### Task 7
 
 ![Gitgraph](img/gitgraph.svg)
+
+1. **develop** : Nom de la branche `develop`, qui est une branche secondaire par rapport à la branche principale `main`.
+
+2. **baa6795** : Identifiant du commit. Chaque commit possède un identifiant unique, ici, il commence par "baa6795".
+
+3. **Merge branch 'feature-auth' into 'develop'** : Message de commit indiquant qu'une fusion (*merge*) de la branche `feature-auth` vers la branche `develop` a été réalisée.
+
+4. **ByteMe Bob bob.byteme@hevs.ch** : Auteur du commit de fusion, ici "ByteMe Bob" avec son adresse e-mail.
+
+5. Tag `v1.0.0`, utilisé pour marquer une version spécifique dans l'historique du dépôt.
+
+6. Merge la branche `feature-auth` dans `develop`
+
+7. Création de la branche `feature-auth`, qui est une branche secondaire. Ici, le commit d'id **c93cfcc** ajoute l'athentification utilisateur fait par "CodeQueen Carol"
+
+8. Merge la branche `develop` dans `main` par "Silvan Zahno" avec l'identifant de commit **7725aa3**.
+
+9. Ligne de la branche `develop` avec les commits suivant :
+   
+   - `b205e38` : Préparation pour la publication, par "Silvan Zahno".
+   - `e209ecc` : Ajout du frontend, par "Silvan Zahno".
+   - `79bc77a` : Ajout du backend, par "Silvan Zahno".
+
+10. Ligne de la branche `main` et en bas le commit initial avec l'id **e83fbdc** fait par "Silvan Zahno".
+
+Ce schéma montre un historique Git avec des branches, des commits, des fusions, et un tag pour la version.
