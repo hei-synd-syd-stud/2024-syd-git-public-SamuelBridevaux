@@ -46,6 +46,10 @@ $ git log --oneline
 
 ### Task 6
 
+Lors du checkout commit sur le initial commit, les fichiers du projet sont revenus à l’état du tout premier commit, donc seuls les fichiers présents à ce moment-là étaient visibles.
+
+Ensuite, lorsque j'ai checkout sur le main, tous les fichiers et modifications ajoutés depuis le commit initial ont été restaurés, ramenant le projet à son état le plus récent.
+
 ## Gitgraph
 
 ### Task 7
